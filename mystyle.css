@@ -1,0 +1,107 @@
+h1,h3{
+color:black;
+font-family:"Calibri"
+}
+
+
+
+p{
+color:black;
+text-align:justify;
+font-size:20
+}
+
+
+body{
+background-color:white;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size:cover;
+background-position:right top;
+color:white;
+font-family:"Calibri"
+
+
+ margin-top:50px;
+ margin-left:0px;
+ margin-right:0px;
+ 
+ 
+th {
+    background-color: #3e4488;
+    color: white;
+}}
+
+section{
+	padding:10rem 0;
+	background-color:white;
+}
+
+.heading{
+	text-transform: uppercase;
+	font-size: 30pt;
+
+	letter-spacing:2px;
+	text-align:center;
+}
+
+.heading::after{
+	content:"";
+	width:15rem;
+	height:0.5rem;
+	background-color:#3e4488;
+	position:absolute;
+	bottom: -10rem;
+	left: 50%;
+	transform:translateX(-50%);
+	border-radius:2rem;
+}
+	
+
+.card-wrapper{
+	display:flex;
+	align-items: center;
+	align-content:center;
+	flex-direction:column;
+	
+}
+
+.card{
+	width:500px;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+	margin:-10rem;
+	box-shadow: 0.5rem .5rem 3rem rgba(0,0,0,0.2);
+}
+
+.status{
+	color:green;
+}
+
+.statusoff{
+	color:red;
+}
+
+@media screen and (max-width: 600px) {
+.container{
+	width:100%;
+	display:block;
+	margin-bottom:200px;
+}
+}
+
+.container{
+	float:left;
+	width:27%;
+	padding:60px;
+}
+	
+	
+
+
+
+
+
+
