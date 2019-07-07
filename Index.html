@@ -16,11 +16,17 @@
 
 <!--Banner-->
 
-<center> <img src="Logo/logo_blue.png" height = 200></center>
+<center> </center>
 
 
 <!--navigation bar-->
 <style>
+#top-logo {
+	display: inline-block;
+	transition: all .4s ease-in-out;
+	text-align: right;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -280,6 +286,18 @@ With the first generation of the MX-5, the phrase was developed into five specif
 <marquee> <img src="marquee.jpg" width="220" height="75"/> </marquee>
 
 </body>
+<script>
+console.log("loaded");
+disappear=function () {
+	if (window.scrollY > 10) {
+		document.getElementById("top-logo").height="50"
+	}
+	else {
+		document.getElementById("top-logo").height="200"
+	}
+}
+window.onscroll = disappear;
+</script>
 </html>
 <!--https://www.mazda.com.au/cars/mx-5/?nst=0&gclid=Cj0KCQjw3MPNBRDjARIsAOYU6x-asIiLlCjSuZS1uNrFHv-DySHXOiDvmfgHmq3XcgkAN-xHeKNJtYIaAmdqEALw_wcB-->
 <!--dddddddddddddddd-->
